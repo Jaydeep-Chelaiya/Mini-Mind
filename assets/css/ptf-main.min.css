@@ -459,7 +459,7 @@
 }
 .fz-120 {
   font-size: 7.5rem;
-  letter-spacing: -0.05em;
+  letter-spacing: -1.5px;
 }
 .fz-100 {
   font-size: 6.25rem;
@@ -6718,11 +6718,11 @@ p.form-submit {
 .ptf-service-box {
   position: relative;
   display: grid;
-  padding: 3.125rem;
+  padding: 3rem;
   -webkit-transition: background-color var(--ptf-transition-duration) var(--ptf-transition-easing);
   transition: background-color var(--ptf-transition-duration) var(--ptf-transition-easing);
   border-top: 2px solid var(--ptf-color-black);
-  grid-template-columns: 8rem 15rem 1fr 7rem;
+  grid-template-columns: 8rem 12rem 1fr 5rem;
   align-items: center;
 }
 @media only screen and (max-width: 1199px) {
@@ -7175,7 +7175,7 @@ p.form-submit {
 }
 @media only screen and (min-width: 992px) {
   .ptf-showcase-3 .ptf-swiper-fraction {
-    bottom: 3.75rem;
+    bottom: 5rem;
     left: 4.375rem;
   }
 }
@@ -7190,7 +7190,7 @@ p.form-submit {
 @media only screen and (min-width: 992px) {
   .ptf-showcase-3 .ptf-swiper-pagination {
     right: 4.375rem;
-    bottom: 3.75rem;
+    bottom: 5rem;
   }
 }
 .ptf-showcase-3 .ptf-swiper-button-prev--style-4 {
@@ -7762,4 +7762,7 @@ p.form-submit {
 .ptf-service_tag {
   margin-top: 10px;
   font-size: 1.25rem;
+}
+.ptf-navbar.ptf-navbar--solid {
+  box-shadow: 0 4px 16px rgb(0, 0, 0, 0.08);
 }
