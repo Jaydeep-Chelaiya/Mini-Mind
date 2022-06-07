@@ -7799,4 +7799,10 @@ p.form-submit {
   .ptf-page--pricing .ptf-service_title {
     font-size: 28px;
   }
+  .ptf-page__form .ptf-form-group {
+    padding-left: 3.5rem;
+  }
+  .ptf-page__form .ptf-submit-button {
+    margin-left: 3.5rem;
+  }
 }
