@@ -6429,7 +6429,7 @@ p.form-submit {
   display: -ms-flexbox;
   display: flex;
   flex-direction: column;
-  padding: 2.8125rem 3.125rem 4rem;
+  padding: 2.8125rem 2.5rem 2.5rem;
   -webkit-transition: all var(--ptf-transition-duration) var(--ptf-transition-easing);
   transition: all var(--ptf-transition-duration) var(--ptf-transition-easing);
   background-color: var(--ptf-color-white);
@@ -7768,4 +7768,35 @@ p.form-submit {
 }
 .portfolio__action {
   font-weight: 600;
+}
+.ptf-table__note {
+  margin-top: 15px;
+  padding: 2.5rem;
+  box-shadow: inset 0 0 0 1px var(--ptf-color-black);
+}
+
+.ptf-table__note p {
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.ptf-table__note .ptf-pricing-table__action {
+  margin-top: 2rem;
+  justify-content: center;
+}
+
+.ptf-table__note .ptf-pricing-table__action .ptf-btn {
+  padding: 1.4375rem 5.025rem;
+}
+
+@media only screen and (min-width: 992px) {
+  .ptf-table__note .ptf-pricing-table__action .ptf-btn {
+    width: auto;
+  }
+  .ptf-pricing__content p {
+    font-size: 18px;
+  }
+  .ptf-page--pricing .ptf-service_title {
+    font-size: 28px;
+  }
 }
