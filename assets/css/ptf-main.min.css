@@ -6505,14 +6505,14 @@ p.form-submit {
 .ptf-pricing-table__description {
   font-size: 0.875rem;
   margin-top: 1.75rem;
-  padding-bottom: 1.875rem;
+  padding-bottom: 0.475rem;
   -webkit-transition: all var(--ptf-transition-duration) var(--ptf-transition-easing);
   transition: all var(--ptf-transition-duration) var(--ptf-transition-easing);
   color: var(--ptf-color-2);
   border-bottom: 1px solid var(--ptf-color-black);
 }
 .ptf-pricing-table__content {
-  margin-top: 2.8125rem;
+  margin-top: 3.3125rem;
 }
 .ptf-pricing-table__content ul {
   margin: 0;
