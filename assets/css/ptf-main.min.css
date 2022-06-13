@@ -7638,6 +7638,11 @@ p.form-submit {
 }
 .ptf-twitter-review__avatar img {
   border-radius: 50%;
+  width: 60px;
+  height: auto;
+  border: 1px solid #cecece;
+  position: relative;
+  top: -1.5px;
 }
 .ptf-twitter-review__meta {
   -webkit-flex-basis: 100%;
