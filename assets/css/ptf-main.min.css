@@ -7811,3 +7811,14 @@ p.form-submit {
     margin-left: 3.5rem;
   }
 }
+
+.ptf-list {
+  line-height: 2;
+  list-style: none;
+  /* padding-left: 0 !important; */
+}
+
+.ptf-list li {
+  font-weight: 600;
+  color: #383838;
+}
