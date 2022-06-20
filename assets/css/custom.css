@@ -284,11 +284,6 @@
 .ptf-showcase-3 .ptf-showcase-slide {
   padding: 11rem 0 8rem 0;
 }
-.ptf-footer--style-3 .ptf-footer__top .ptf-widget-links {
-  columns: 3;
-  -webkit-columns: 3;
-  -moz-columns: 3;
-}
 
 /* === Privacy Policy Page === */
 .ptf-is--policy .ptf-page-policy h3 {
@@ -335,7 +330,7 @@
   }
   /* Testimmonials */
   .ptf-testimonial-title {
-    font-size: 3.1rem;
+    font-size: 3rem;
   }
   .ptf-twitter-review {
     padding-top: 2.25rem;
@@ -362,6 +357,9 @@
   }
   .ptf-footer__bottom .col-12 {
     text-align: center !important;
+  }
+  .footer-copyright li.ptf-footer-copyright::after {
+    display: none;
   }
 
   /* === About Us Page === */

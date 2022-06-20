@@ -5038,7 +5038,7 @@ p.form-submit {
   width: 1em;
   height: 1em;
   margin-top: 0.12em;
-  margin-left: 2.5rem;
+  margin-left: 1.5rem;
   -webkit-transition: -webkit-transform var(--ptf-transition-duration) var(--ptf-transition-easing);
   transition: -webkit-transform var(--ptf-transition-duration) var(--ptf-transition-easing);
   transition: transform var(--ptf-transition-duration) var(--ptf-transition-easing);
@@ -7822,4 +7822,54 @@ p.form-submit {
 .ptf-list li {
   font-weight: 600;
   color: #383838;
+}
+
+.footer-copyright {
+  list-style: none;
+}
+.footer-copyright li {
+  display: inline-block;
+  color: #999999;
+}
+.footer-copyright li:not(:last-of-type):after {
+  content: "|";
+  margin: 0 5px 0 10px;
+}
+/* WhatsApp Icon Styles */
+.whatsupapps a.whatsup {
+  position: fixed;
+  right: 0;
+  bottom: 20px;
+  display: inline-block;
+  padding: 10px 18px 4px 28px;
+  font-size: 0px;
+  line-height: 16px;
+  font-weight: 400;
+  box-shadow: 0px 5px 15px 0px rgb(0 0 0 / 30%);
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border-radius: 24px 0 0 24px;
+  z-index: 9;
+}
+.whatsupapps .whatsup span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: url(../../assets/img/new/whatsapp-icon.svg) 0px 0px no-repeat;
+  background-size: 100%;
+  display: inline-block;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 20%);
+  background-position: -2px center;
+  transition: all 0.2s ease 0s;
+}
+.whatsupapps .whatsup b {
+  font-size: 0px;
+  font-weight: 600;
+  display: block;
+}
+.ptf-footer__top .ptf-widget.ptf-widget-contacts.has-white-color a {
+  max-width: max-content;
 }
